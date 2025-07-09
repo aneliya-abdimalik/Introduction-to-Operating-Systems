@@ -10,7 +10,7 @@ This repository contains three core Operating Systems projects that explore IPC,
 
 ## Projects Overview
 
-1. **Multiplayer Tic-Tac-Toe Game** (`homework1/`)
+1. **Multiplayer Tic-Tac-Toe Game** (`hw1/`)
    - **Stack:** Unix domain socket pairs (bidirectional pipes), non-blocking I/O with `select()`/`poll()`, process management
    - **Description:** A server for real-time, multi-process Tic-Tac-Toe. Demonstrates message protocols (`START`, `MARK`, `RESULT`, `END`), custom grid sizes, and graceful cleanup.
 
@@ -18,7 +18,7 @@ This repository contains three core Operating Systems projects that explore IPC,
    - **Stack:** POSIX threads (`pthread`), mutexes, semaphores, condition variables
    - **Description:** A thread-safe store library and test harness simulating suppliers and customers. Exercises synchronization primitives to enforce capacity limits and avoid deadlocks.
 
-3. **EXT2 File System Chronology** (`homework3/`)
+3. **EXT2 File System Chronology** (`hw3/`)
    - **Stack:** EXT2 filesystem headers, inode and directory parsing, timestamp analysis
    - **Description:** A tool (`histext2fs`) that reconstructs filesystem history from an ext2 image. Prints current directory tree and infers events (`touch`, `mkdir`, `rm`, `mv`) from inode timestamps.
 
